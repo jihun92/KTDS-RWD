@@ -9,6 +9,10 @@
     border: 0;
 }
 
+.container {
+    min-width: 16.25rem;
+}
+
 .sr-only{
     position: absolute;
     width: 1px;
@@ -54,4 +58,22 @@
 /* 검색 폼 */
 .searchForm{
     width: 100%;
+}
+
+.searchForm__group{
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.formInput {
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+.formInput__input {
+    width: 100%;
+}
+
+.searchForm .button {
+    white-space: nowrap;
 }
